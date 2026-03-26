@@ -53,7 +53,7 @@ const RegisterPage = () => {
     <AuthFormWrapper title="Register">
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-5 w-full">
         <div className="space-y-2">
-          <label htmlFor="username" className="text-sm font-medium text-gray-700">
+          <label htmlFor="username" className="text-sm font-semibold text-gray-700">
             Username <span className="text-gray-500 text-xs">(max 8 karakter)</span>
           </label>
           <input
@@ -78,7 +78,7 @@ const RegisterPage = () => {
         </div>
 
         <div className="space-y-2">
-          <label htmlFor="email" className="text-sm font-medium text-gray-700">
+          <label htmlFor="email" className="text-sm font-semibold text-gray-700">
             Email
           </label>
           <input
@@ -98,7 +98,7 @@ const RegisterPage = () => {
         </div>
 
         <div className="space-y-2">
-          <label htmlFor="nomorTelp" className="text-sm font-medium text-gray-700">
+          <label htmlFor="nomorTelp" className="text-sm font-semibold text-gray-700">
             Nomor Telepon
           </label>
           <input
@@ -123,7 +123,7 @@ const RegisterPage = () => {
         </div>
 
         <div className="space-y-2">
-          <label htmlFor="password" className="text-sm font-medium text-gray-700">
+          <label htmlFor="password" className="text-sm font-semibold text-gray-700">
             Password
           </label>
           <input
@@ -143,7 +143,7 @@ const RegisterPage = () => {
         </div>
 
         <div className="space-y-2">
-          <label htmlFor="confirmPassword" className="text-sm font-medium text-gray-700">
+          <label htmlFor="confirmPassword" className="text-sm font-semibold text-gray-700">
             Konfirmasi Password
           </label>
           <input
@@ -168,7 +168,7 @@ const RegisterPage = () => {
 
         <div className="space-y-2">
           <div className="flex items-center space-x-3">
-            <span className="text-sm font-medium text-gray-700">Captcha:</span>
+            <span className="text-sm font-semibold text-gray-700">Captcha:</span>
             <span className="font-mono text-lg font-bold text-gray-800 bg-gray-100 px-3 py-1.5 rounded">
               {DEFAULT_CAPTCHA}
             </span>
@@ -191,7 +191,7 @@ const RegisterPage = () => {
 
         <button
           type="submit"
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 px-4 rounded-lg"
+          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg"
         >
           Register
         </button>

@@ -61,9 +61,9 @@ const LoginPage = () => {
 
   return (
     <AuthFromWrapper title="Login">
-      <form onSubmit={handleSubmit} className="space-y-5 w-full">
+      <form onSubmit={handleSubmit} className="space-y-6 w-full">
         <div className="space-y-2">
-          <label htmlFor="email" className="text-sm font-medium text-gray-700">
+          <label htmlFor="email" className="text-sm font-semibold text-gray-700">
             Email
           </label>
           <input
@@ -79,8 +79,8 @@ const LoginPage = () => {
           )}
         </div>
 
-        <div className="space-y-2">
-          <label htmlFor="password" className="text-sm font-medium text-gray-700">
+        <div className="space-y-3">
+          <label htmlFor="password" className="text-sm font-semibold text-gray-700">
             Password
           </label>
           <input
@@ -120,7 +120,7 @@ const LoginPage = () => {
 
         <div className="space-y-2">
           <div className="flex items-center space-x-3">
-            <span className="text-sm font-medium text-gray-700">Captcha:</span>
+            <span className="text-sm font-semibold text-gray-700">Captcha:</span>
             <span className="font-mono text-lg font-bold text-gray-800 bg-gray-100 px-3 py-1.5 rounded">
               {DEFAULT_CAPTCHA}
             </span>
@@ -140,7 +140,7 @@ const LoginPage = () => {
 
         <button
           type="submit"
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 px-4 rounded-lg"
+          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg"
         >
           Sign In
         </button>
